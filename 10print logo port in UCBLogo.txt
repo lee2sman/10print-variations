@@ -1,0 +1,10 @@
+cs
+make "ypos 160
+to begin seth 0 pu setxy -330 :ypos rt 90 end
+to randomGen make "i random 2 end
+to downSlash pd rt 45 fd 20 pu lt 135 fd 14.14 rt 90 end
+to upSlash pu rt 90 fd 14.14 lt 135 pd fd 20 rt 45 end
+to draw randomGen ifelse :i = 0 [upSlash] [downSlash] end
+to looper begin repeat 46 [draw] make "ypos :ypos-14.14 end
+
+repeat 17 [looper]
