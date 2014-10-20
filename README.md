@@ -1,17 +1,15 @@
 10print-variations
 ==================
 
-Strange variations based on BASIC 10PRINT 1line code.
-
-
 10PRINT Ports And Variations
+----------------------------
 The famous 1-line program 10PRINT created in BASIC, now ported to:
 
-Logo
-Scratch
-Twine
-PuzzleScript
-and a preview of ZZT-OOP!
+* Logo
+* Scratch
+* Twine
+* PuzzleScript
+* and a preview of ZZT-OOP!
 
 10PRINT is a famous single line of code written in BASIC on the Commodore64 computer popular in the early 1980s. The line of code 10 PRINT CHR$(205.5+RND(1)); : GOTO 10 when written into the computer in Commodore 64 BASIC creates an infinite loop that draws a maze. When you RUN this code, the computer picks a random number either 0 or 1 and adds this to 205. Then it will PRINT either the "/" character (205) or the "\" character (206). And then it loops back to the beginning and starts again, over and over.
 
